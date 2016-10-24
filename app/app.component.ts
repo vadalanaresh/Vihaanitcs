@@ -3,7 +3,7 @@ import { NavbarComponent } from './nav/nav.component';
 @Component({
     selector: 'my-app',
     template: `<div>
-    sdkfhjkshdufhiasehfiywIUAHFKJHUIHIK
+    <nav-bar></nav-bar>
 </div>`
 })
 export class AppComponent {
