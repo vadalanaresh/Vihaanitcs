@@ -1,0 +1,115 @@
+
+.parallax { 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-background{
+       /* The image used */
+   /*background-color: #2C3E50;*/
+   background-image: url("../Images/Speed%20test.png");
+    /* Set a specific height */
+    height: 100px; 
+}
+.training-content{
+    /* The image used */
+    background-color:  #fff;
+  height:400px;
+}
+.product-background{
+   /* The image used */
+   /*background-color: #233140;*/
+    background-image: url("../Images/Speed%20test.png");
+    /* Set a specific height */
+    height: 150px; 
+}
+.product-content{
+    /* The image used */
+    background-color:#fff;
+    height:950px;
+}
+ul{
+    list-style-type:none}
+ul,ol{
+    margin:0 0 8px 25px;padding:0}
+li{
+    line-height:16px}
+
+.bg-green { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.content-box {
+	text-align: center;
+	margin: 25px 0;
+}
+
+.content-box-icon {
+	font-size: 42px;
+	color: #111;
+}
+
+.content-box-title {
+	text-align: center;
+	margin: 5px 0 18px;
+}
+
+/* Alt content box */
+
+.alt-content-box {
+	position: relative;
+	padding-left: 55px;
+	margin: 25px 0;
+}
+
+.alt-content-box-icon {
+	position: absolute;
+	height: 38px;
+	width: 38px;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 38px;
+	font-size: 28px;
+	color: #111;
+}
+
+.alt-content-box-title {
+	margin: 0 0 18px;
+}
+
+html {
+    height: 100%;
+}
+body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden
+}
+p {
+    font-size: 20px
+}
+p.small {
+    font-size: 16px
+}
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+    color: #18BC9C;
+    outline: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
