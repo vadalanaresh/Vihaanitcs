@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var PlacementsComponet = (function () {
+    function PlacementsComponet() {
     }
-    AppComponent = __decorate([
+    PlacementsComponet = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "<nav-bar></nav-bar>\n    <products></products>\n    <services></services>\n    <training></training>\n    <placements></placements>\n    <about-us></about-us>\n    <contact></contact>\n    "
+            selector: 'placements',
+            templateUrl: '/app/placements/placements.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], PlacementsComponet);
+    return PlacementsComponet;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.PlacementsComponet = PlacementsComponet;
+//# sourceMappingURL=placements.components.js.map

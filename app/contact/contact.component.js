@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var ProductComponent = (function () {
-    function ProductComponent() {
+var ContactComponent = (function () {
+    function ContactComponent() {
     }
-    ProductComponent = __decorate([
+    ContactComponent = __decorate([
         core_1.Component({
-            selector: 'products',
-            templateUrl: '/app/products/products.html'
+            selector: 'contact',
+            templateUrl: './app/contact/contact.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], ProductComponent);
-    return ProductComponent;
+    ], ContactComponent);
+    return ContactComponent;
 }());
-exports.ProductComponent = ProductComponent;
-//# sourceMappingURL=products.componet.js.map
+exports.ContactComponent = ContactComponent;
+//# sourceMappingURL=contact.component.js.map

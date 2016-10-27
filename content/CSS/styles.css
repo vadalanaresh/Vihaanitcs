@@ -1,6 +1,5 @@
 
 .parallax { 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,29 +7,78 @@
 }
 
 .training-background{
-       /* The image used */
-   /*background-color: #2C3E50;*/
    background-image: url("../Images/Speed%20test.png");
-    /* Set a specific height */
     height: 100px; 
 }
 .training-content{
-    /* The image used */
-    background-color:#2C3E50;
-       color: #fff;
-  height:610px;
+   padding-top: 2.5%;
+    background-color:#1e3948;
+       color: #f5f8fa;
+  height:500px;
 }
 .product-background{
-   /* The image used */
-   /*background-color: #233140;*/
+     /*background-color: #233140;*/
     background-image: url("../Images/Speed%20test.png");
-    /* Set a specific height */
     height: 150px; 
 }
 .product-content{
-    /* The image used */
-    background-color:#fff;
+      padding-top: 2.5%;
+    background-color: #f5f8fa;;
     height:950px;
+}
+.services-background{
+     /*background-color: #233140;*/
+    background-image: url("../Images/Speed%20test.png");
+    
+    height: 150px; 
+}
+.services-content{
+    padding-top: 2.5%;
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+    height:500px;
+}
+.placements-background{
+     /*background-color: #233140;*/
+    background-image: url("../Images/Speed%20test.png");
+    height: 150px; 
+}
+.placements-content{
+    padding-top: 2.5%;
+     background-color: #f5f8fa; /* Green */
+   color: #1e3948;
+    height:500px;
+}
+.aboutus-background{
+   background-image: url("../Images/Speed%20test.png");
+    height: 100px; 
+}
+.aboutus-content{
+   padding-top: 2.5%;
+    color:#1e3948;
+      background-color: #f5f8fa;
+  height:600px;
+}
+.contact-background{
+   background-image: url("../Images/Speed%20test.png");
+    height: 100px; 
+}
+.contact-content{
+   padding-top: 2.5%;
+    background-color:#1e3948;
+       color: #f5f8fa;
+  height:500px;
+}
+
+btn-d {
+    background: rgba(17, 17, 17, 0.8);
+    color: #fff;
+}
+.btn.btn-round {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
 }
 ul{
     list-style-type:none}
@@ -40,8 +88,8 @@ li{
     line-height:16px}
 
 .bg-green { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+    background-color: #f5f8fa; /* Green */
+    color: #1e3948;
 }
 
 .content-box {
@@ -112,5 +160,9 @@ h5,
 h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700
+    font-weight: 700;
+}
+h2{
+    
+        letter-spacing: 10px;
 }

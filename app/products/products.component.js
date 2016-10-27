@@ -9,17 +9,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var ProductComponent = (function () {
+    function ProductComponent() {
+        this.softwareProducts = ['Operating Systems',
+            'Windows Servers',
+            'Development tools',
+            'Office',
+            'MS SQL Servers',
+            'Exchange Server',
+            'Many more'];
+        this.hardwareProducts = ['RedHat Desktops with many options',
+            'RedHat Enterprise Server',
+            'RedHat Enterprise Virtualization Server',
+            'RedHat Enterprise Directory Servers',
+            'Other RedHat products'];
     }
-    AppComponent = __decorate([
+    ProductComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "<nav-bar></nav-bar>\n    <products></products>\n    <services></services>\n    <training></training>\n    <placements></placements>\n    <about-us></about-us>\n    <contact></contact>\n    "
+            selector: 'products',
+            templateUrl: '/app/products/products.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], ProductComponent);
+    return ProductComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.ProductComponent = ProductComponent;
+//# sourceMappingURL=products.component.js.map

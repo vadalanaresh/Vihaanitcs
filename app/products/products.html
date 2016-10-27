@@ -1,6 +1,4 @@
-<div class=" product-background parallax">
-</div>
-<section class="product-content" id="products">
+<section id="products" class="product-content">
 	<div class="row">
 		<div class="col-md-12 text-center">
 			<h2> Products </h2>
@@ -17,21 +15,11 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-4 ">
 					<h4 class="text-left">Microsoft Products</h4>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Operating Systems</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Windows Servers</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Development tools</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Office</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   MS SQL Servers</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Exchange Server</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Many more</p>
+					<p class="small text-left" *ngFor="let product of softwareProducts"><i class="fa fa-plus"></i> {{product}}</p>
 				</div>
 				<div class="col-md-4">
 					<h4 class="text-left">Red Hat Products</h4>
-						<p class="small text-left"><i class="fa fa-plus"></i>   RedHat Desktops with many options</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   RedHat Enterprise Server</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   RedHat Enterprise Virtualization Server</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   RedHat Enterprise Directory Servers</p>
-						<p class="small text-left"><i class="fa fa-plus"></i>   Other RedHat products</p>
+					<p class="small text-left" *ngFor="let product of hardwareProducts"><i class="fa fa-plus"></i> {{product}}</p>
 					<div class="col-md-2"></div>
 				</div>
 				<div class="col-md-2"></div>
@@ -77,7 +65,7 @@
 		<div class="col-sm-4 col-md-3 col-lg-3">
 			<div class="content-box">
 				<div class="">
-					
+
 				</div>
 				<h5 class="content-box-title font-alt"><strong><i class="fa fa-server"></i> Servers </strong></h5>
 				<div class="content-box-text">
@@ -136,3 +124,5 @@
 		</div>
 	</div>
 </section>
+<div class=" product-background parallax">
+</div>
