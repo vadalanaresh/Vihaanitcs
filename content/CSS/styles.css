@@ -1,0 +1,168 @@
+
+.parallax { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-background{
+   background-image: url("../Images/Speed%20test.png");
+    height: 100px; 
+}
+.training-content{
+   padding-top: 2.5%;
+    background-color:#1e3948;
+       color: #f5f8fa;
+  height:500px;
+}
+.product-background{
+     /*background-color: #233140;*/
+    background-image: url("../Images/Speed%20test.png");
+    height: 150px; 
+}
+.product-content{
+      padding-top: 2.5%;
+    background-color: #f5f8fa;;
+    height:950px;
+}
+.services-background{
+     /*background-color: #233140;*/
+    background-image: url("../Images/Speed%20test.png");
+    
+    height: 150px; 
+}
+.services-content{
+    padding-top: 2.5%;
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+    height:500px;
+}
+.placements-background{
+     /*background-color: #233140;*/
+    background-image: url("../Images/Speed%20test.png");
+    height: 150px; 
+}
+.placements-content{
+    padding-top: 2.5%;
+     background-color: #f5f8fa; /* Green */
+   color: #1e3948;
+    height:500px;
+}
+.aboutus-background{
+   background-image: url("../Images/Speed%20test.png");
+    height: 100px; 
+}
+.aboutus-content{
+   padding-top: 2.5%;
+    color:#1e3948;
+      background-color: #f5f8fa;
+  height:600px;
+}
+.contact-background{
+   background-image: url("../Images/Speed%20test.png");
+    height: 100px; 
+}
+.contact-content{
+   padding-top: 2.5%;
+    background-color:#1e3948;
+       color: #f5f8fa;
+  height:500px;
+}
+
+btn-d {
+    background: rgba(17, 17, 17, 0.8);
+    color: #fff;
+}
+.btn.btn-round {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+ul{
+    list-style-type:none}
+ul,ol{
+    margin:0 0 8px 25px;padding:0}
+li{
+    line-height:16px}
+
+.bg-green { 
+    background-color: #f5f8fa; /* Green */
+    color: #1e3948;
+}
+
+.content-box {
+	text-align: center;
+	margin: 25px 0;
+}
+
+.content-box-icon {
+	font-size: 42px;
+	color: #111;
+}
+
+.content-box-title {
+	text-align: center;
+	margin: 5px 0 18px;
+}
+
+/* Alt content box */
+
+.alt-content-box {
+	position: relative;
+	padding-left: 55px;
+	margin: 25px 0;
+}
+
+.alt-content-box-icon {
+	position: absolute;
+	height: 38px;
+	width: 38px;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 38px;
+	font-size: 28px;
+	color: #111;
+}
+
+.alt-content-box-title {
+	margin: 0 0 18px;
+}
+
+html {
+    height: 100%;
+}
+body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden
+}
+p {
+    font-size: 20px
+}
+p.small {
+    font-size: 16px
+}
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+    color: #18BC9C;
+    outline: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2{
+    
+        letter-spacing: 10px;
+}

@@ -1,0 +1,18 @@
+<section id="services" class="services-content">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2> Services </h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class='{{serivice.CSSClass}}' *ngFor="let serivice of services">
+			<div class="content-box">
+				<h5 class="content-box-title font-alt"><strong><span class="icon-desktop"></span> {{serivice.Name}}</strong></h5>
+				<div class="content-box-text">
+					{{serivice.Description}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>\
+<div class="services-background parallax"></div>
