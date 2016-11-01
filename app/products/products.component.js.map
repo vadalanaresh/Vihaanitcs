@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"file":"products.component.js","sourceRoot":"","sources":["products.component.ts"],"names":[],"mappings":""}
+=======
+{"version":3,"file":"products.component.js","sourceRoot":"","sources":["products.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAA0B,eAAe,CAAC,CAAA;AAM1C;IAGI;QACI,IAAI,CAAC,gBAAgB,GAAG,CAAC,mBAAmB;YACxC,iBAAiB;YACjB,mBAAmB;YACnB,QAAQ;YACR,gBAAgB;YAChB,iBAAiB;YACjB,WAAW,CAAC,CAAA;QAChB,IAAI,CAAC,gBAAgB,GAAG,CAAC,mCAAmC;YACxD,0BAA0B;YAC1B,yCAAyC;YACzC,qCAAqC;YACrC,uBAAuB,CAAC,CAAA;IAChC,CAAC;IApBL;QAAC,gBAAS,CAAC;YACP,QAAQ,EAAE,UAAU;YACpB,WAAW,EAAE,6BAA6B;SAC7C,CAAC;;wBAAA;IAkBF,uBAAC;AAAD,CAAC,AAjBD,IAiBC;AAjBY,wBAAgB,mBAiB5B,CAAA"}
+>>>>>>> 089c86e515d8dae70ac18c4ff4e4fb503947aad6
